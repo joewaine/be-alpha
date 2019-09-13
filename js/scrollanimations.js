@@ -207,7 +207,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger_3_out", duration: 3
 // build tween
 
 // build entrance tween
-var tween = TweenMax.from(".animate_t_4", 2, {transform: "translateY(150px)", fontSize: '150px', opacity: 0}, {transform: "translateY(0px)", fontSize: '210px', opacity: 1, ease: Circ.easeOut}, 0.05);
+var tween = TweenMax.staggerFromTo(".animate_t_4", 2, {transform: "translateY(150px)", fontSize: '150px', opacity: 0}, {transform: "translateY(0px)", fontSize: '210px', opacity: 1, ease: Circ.easeOut}, 0.05);
 
 // build entrance scene
 var scene = new ScrollMagic.Scene({triggerElement: "#trigger_4_in", duration: 300})
