@@ -1,5 +1,8 @@
 $('document').ready(function () {
 
+
+
+	$('.animate_t_1, .animate_c_1,.animate_t_2, .animate_c_2,.animate_t_3, .animate_c_3,.animate_t_4, .animate_c_4,.animate_t_5_1, .animate_t_5_2, .animate_c_5,').css('opacity',0);
 	var s = $('.section');
 	var nav = $('ul li a');
 	s.waypoint({
