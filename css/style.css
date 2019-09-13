@@ -75,7 +75,8 @@ transition: all .5s ease;
 
 .left-bar__word{
     transform: rotate(-90deg);
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "SSTProHeavy",Arial,Helvetica,sans-serif;
     text-transform: uppercase;
     color: #e7e4be;
     letter-spacing: 1px;
@@ -265,7 +266,7 @@ h1.ml13{
     bottom:0;
     transform:translate(-50%,50%);
     left: 15%;
-    width: 33%;
+    width: 55%;
 }
 
 .camera4,
@@ -285,7 +286,7 @@ h1.ml13{
 .black-paragraph3,
 .black-paragraph2,
 .black-paragraph1{
-    width: 36%;
+    width: 30%;
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
@@ -293,6 +294,9 @@ h1.ml13{
     color: black;
     text-align: left;
     float: right;
+    /* font-family: "SSTProMedium", Arial, Helvetica, sans-serif; */
+
+    font-family: "SSTProBold", Arial, Helvetica, sans-serif;
 }
 
 
@@ -324,7 +328,7 @@ h1.ml13{
 	color: #e7e4be;
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SSTProHeavy,Arial,Helvetica,sans-serif;
     font-size: 210px;
 	text-transform: uppercase;
     font-weight:700;
@@ -684,6 +688,19 @@ section.five{
     height:25vh;width:100%;position: relative;
 }
 
+
+/* {
+font-family: SSTProHeavy,Arial,Helvetica,sans-serif;
+} */
+
+
+.vertical-center.first{
+    font-family: "SSTProMedium", Arial, Helvetica, sans-serif;
+}
+
+.vertical-center.first span{
+    font-family: "SSTProHeavy",Arial,Helvetica,sans-serif;
+}
 
 @media only screen and (max-width: 1520px) {
 
